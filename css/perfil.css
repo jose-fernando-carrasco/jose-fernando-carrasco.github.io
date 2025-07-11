@@ -605,6 +605,10 @@ a.force {
         content: url('../images/Angular_movil.png');
     }
 
+    .box-framework.net img {
+        content: url('../images/Net.png');
+    }
+
     .img-tecnologias {
         width: 90%;
     }
