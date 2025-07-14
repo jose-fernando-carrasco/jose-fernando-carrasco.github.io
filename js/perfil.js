@@ -41,3 +41,25 @@ document.addEventListener('DOMContentLoaded', function () {
     duration = 300;
     requestAnimationFrame(step);
 });
+
+
+function cambiarImagenResponsive() {
+    const img = document.getElementById('AppQr-img');
+    const AppJDimg = document.getElementById('AppJD-img');
+    const webCredenimg = document.getElementById('webCredenciales-img');
+
+    if (window.innerWidth <= 768) {
+      img.src = "images/AppQr_Movil.png";
+      AppJDimg.src = "images/AppJD_Movil.png";
+      webCredenimg.src = "images/webCredenciales_Movil.png";
+    } else {
+      img.src = "images/AppQr.png";
+      AppJDimg.src = "images/AppJD.png";
+      webCredenimg.src = "images/webCredenciales.png";
+    }
+
+
+  }
+
+  cambiarImagenResponsive();
+  window.addEventListener('resize', cambiarImagenResponsive);

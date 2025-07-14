@@ -569,6 +569,11 @@ a.force {
         font-size: 18px;
     }
 
+    .text-title2{
+        color: #334a64 !important;
+        z-index: 2;
+    }
+
     a.btn {
         padding: 1rem 2rem;
         font-size: 18px;
@@ -624,7 +629,11 @@ a.force {
     }
 
     .box-framework.net img {
-        content: url('../images/Net.png');
+        content: url('../images/Net_movil.png');
+    }
+
+    .box-framework.boot img {
+        content: url('../images/Spring_movil.png');
     }
 
     .img-tecnologias {
