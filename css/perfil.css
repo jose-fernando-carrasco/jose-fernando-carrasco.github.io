@@ -96,10 +96,28 @@
 
 .body-perfil {}
 
+#title-proyectos {
+    position: relative;
+    z-index: 2;
+    top: -80px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 #container-proyectos {
     position: relative;
     z-index: 2;
     top: -100px;
+}
+
+#otros-proyectos {
+    position: relative;
+    z-index: 2;
+    top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .body-perfil.shower {}
